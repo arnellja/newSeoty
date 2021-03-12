@@ -1,0 +1,151 @@
+<mat-card>
+<div class="total-container">
+    <div class="sub-head" style="margin-top: 50px;">
+        <img style="width: 15%;" src="https://hrswebapps.byu.edu/seoty/img/SELogo.png">
+        <h1 style="margin-left: 30px; margin-top: 100px;">Student Employee of the Year</h1>
+    </div>
+    <br>
+    <hr>
+    <br><br>
+    <form>
+        <div class="welcome">
+            <div>
+                <div class="sub-head">
+                    <p style="margin-right: 5px;">Nominee:</p>
+                    <input type="text" style="height: 50%; font-size: 25px;" placeholder="Net ID">
+                </div>
+                <a href="">Don't know their NetID? Click HERE</a>
+            </div>
+            <div style="margin-left: 20%;">
+                <h2 style="margin-top: 0px; margin-bottom: 0px;">Welcome CurrentUser.name</h2><br>
+                <a href="" class="Masquerade">Masquerade as another user</a><br>
+                <a mat-stroked-button style="margin-top: 15px; font-size: 20px;" [routerLink]="['/admin']" routerLinkActive="router-link-active">Admin Options</a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <p>
+            Nominees are evaluated in eight areas: 
+            <b>Communication, Digital Technology, Problem Solving, Professionalism/Work Ethic, Intercultural Fluency, Career Management, Leadership and Teamwork.</b> 
+            Please give examples of the nominee's demonstrated skills in at least four of the eight areas. 
+            You are limited to 350 words for each area. 
+        </p>
+
+        <p>We recommend you write your nominee's examples in a separate document and when completed, paste it onto this area. 
+            When finished, click the <i>Save/Submit</i> button. 
+            If you want to edit or view your nominations, please click on <i>View/Edit your nominations from this year</i> and select your nominee and edit. 
+            Don't forget to click on <i>Save/Submit</i> when you are done editing. 
+            You must complete a minimum of 4 areas to save/submit your nominee. 
+            You may edit your nominations until February 17, 2021 at 5pm.</p>
+
+        <h2>Communication</h2>
+        <p>Nominator may provide examples of how the nominee:</p>
+        <br>
+        <ul>
+            <li>Communicates efficiently verbally and non-verbally</li>
+            <li>Exhibits excellent public speaking skills</li>
+            <li>Contributes to the department by writing and editing documents clearly</li>
+        </ul>
+        <editor></editor>
+        <br>
+        <br>
+        <h2>Digital Technology</h2>
+        <p>Nominator may provide examples of how the nominee:</p>
+        <br>
+        <ul>
+            <li>Utilizes technology to solve office issues</li>
+            <li>Adapts to office technologies easily</li>
+            <li>Identifies appropriate hardware and software to accomplish goals</li>
+        </ul>
+        <editor></editor>
+        <br>
+        <br>
+        <h2>Problem Solving</h2>
+        <p>Nominator may provide examples of how the nominee:</p>
+        <br>
+        <ul>
+            <li>Thinks originally and creatively to come up with solutions</li>
+            <li>Gathers and interprets data to come to decisions</li>
+            <li>Is able to analyze and interpret situations logically</li>
+        </ul>
+        <editor></editor>
+        <br>
+        <br>
+        <h2>Professionalism/Work Ethic</h2>
+        <p>Nominator may provide examples of how the nominee:</p>
+        <br>
+        <ul>
+            <li>Manages their workload efficiently</li>
+            <li>Displays a professional image through both their actions and appearance</li>
+            <li>Acts with integrity and honesty to serve the community as a whole</li>
+        </ul>
+        <editor></editor>
+        <br>
+        <br>
+        <h2>Intercultural Fluency</h2>
+        <p>Nominator may provide examples of how the nominee:</p>
+        <br>
+        <ul>
+            <li>Interacts with all people in a respectful and understanding fashion</li>
+            <li>Makes an effort to create an environment of inclusivity</li>
+            <li>Seeks to increase their understanding and knowledge of other peoples</li>
+        </ul>
+        <editor></editor>
+        <br>
+        <br>
+        <h2>Career Management</h2>
+        <p>Nominator may provide examples of how the nominee:</p>
+        <br>
+        <ul>
+            <li>Self-advocates for opportunities in the workplace</li>
+            <li>Articulates the skills and knowledge they acquire throughout work</li>
+            <li>Sees the bigger picture of how their work ties into their future aspirations</li>
+        </ul>
+        <editor></editor>
+        <br>
+        <br>
+        <h2>Leadership</h2>
+        <p>Nominator may provide examples of how the nominee:</p>
+        <br>
+        <ul>
+            <li>Delegates work fairly to others in the workplace</li>
+            <li>Understands how each team member brings individual strengths and skills to the table</li>
+            <li>Prioritizes and organizes their workload within the team</li>
+        </ul>
+        <editor></editor>
+        <br>
+        <br>
+        <h2>Teamwork</h2>
+        <p>Nominator may provide examples of how the nominee:</p>
+        <br>
+        <ul>
+            <li>Builds relationships and rapport with others in the workplace</li>
+            <li>Negotiates and managers conflict smoothly and effectively</li>
+            <li>Impactfully works with others to achieve a common goal</li>
+        </ul>
+        <editor></editor>
+        <br>
+        <button mat-raised-button class="submit">Save/Submit</button>
+        <div style="display: flex; justify-content: space-around; margin-top: 30px;">
+            <a mat-stroked-button style="margin-top: 15px; font-size: 20px;" [routerLink]="['/past-nominations']" routerLinkActive="router-link-active">View your nominations from previous years</a>
+            <a mat-stroked-button style="margin-top: 15px; font-size: 20px;" [routerLink]="['/current-nominations']" routerLinkActive="router-link-active">View/Edit your nominations from this year</a>
+        </div>
+    </form>
+</div>
+</mat-card>
+<footer>
+    <div class="total-container" style="display: flex; justify-content: space-around;">
+        <div style="margin-top: 15px;">
+            <a class="logo" href="http://byui.edu/">
+                <img style="width: 14%;"src="https://www.byui.edu/images/Branding/Logos/BYU-Idaho.png">
+            </a>
+            <a class="logo" href="http://byuh.edu/">
+                <img style="width: 14%;" src="https://upload.wikimedia.org/wikipedia/commons/9/95/BYU-Hawaii_sub_logo.png">
+            </a>
+            <a class="logo" href="http://www.ldsbc.edu/">
+                <img style="width: 20%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/BYU_Marriott_School_of_Management_logo.svg/1280px-BYU_Marriott_School_of_Management_logo.svg.png">
+            </a>
+        </div>
+        <a class="church" href="https://www.churchofjesuschrist.org/?lang=eng">The Church of Jesus Christ of Latter-day Saints</a>
+    </div>
+</footer>

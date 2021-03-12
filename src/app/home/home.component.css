@@ -1,0 +1,77 @@
+.total-container{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #002255;
+}
+
+.sub-head{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Masquerade{
+    text-decoration: none;
+    font-size: 25px;
+    color: #336699;
+}
+
+.Masquerade:hover{
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 36px;
+}
+
+li{
+    font-size: 18px;
+}
+
+.submit{
+    font-size: 25px;
+    color: white;
+    background-color: #2C8B3D;
+    margin-left: 75px;
+}
+
+button{
+    font-size: 20px;
+}
+
+footer{
+    background-color: #DDDDDD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    margin-right: 30px;
+}
+
+.church{
+    width: 80%;
+    margin-top: 2%;
+    font-size: 18px;
+    text-align: center;
+    color: #595857;
+    text-decoration: none;
+}
+
+.church:hover{
+    text-decoration: underline;
+}

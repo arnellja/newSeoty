@@ -1,0 +1,38 @@
+.total-container{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    padding-bottom: 150px;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #002255;
+}
+
+.sub-head{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+th{
+    margin-right:10px !important;
+}
+
+td{
+    margin-right:40px !important;
+}
+
+table{
+    width: 1000px;
+}
